@@ -1,7 +1,8 @@
-Notes
 
-master configuration
+* Drivers (usually the shell) and Executors
+
+* master configuration
 $ pyspark --master=local[*] // * is the number of threads based on cores available
 
-IPYTHON
-$ PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+* Running IPYTHON in notebook
+$ PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS="notebook" pyspark
