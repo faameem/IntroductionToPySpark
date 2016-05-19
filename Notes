@@ -6,3 +6,11 @@ $ pyspark --master=local[*] // * is the number of threads based on cores availab
 
 * Running IPYTHON in notebook
 $ PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS="notebook" pyspark
+
+* If we need an RDD to be used multiple times, then it makes sense to persist it using persist()
+
+* When creating non-lambda function for map(), be it a pure function (self contained state)
+
+* Pay attention to Python truthy/falsy concept in the filter.ipynb in chapter 4 In5-In13
+
+* After filtering transformation, it makes sense to reduce the number of partitions by calling coalesce()
