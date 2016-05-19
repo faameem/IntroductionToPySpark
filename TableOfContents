@@ -1,0 +1,132 @@
+Table of Contents
+Introduction
+Introduction And Course Overview
+00:02:01
+About The Author
+00:01:02
+Installing Python
+00:04:38
+Installing iPython And Using Notebooks
+00:06:28
+How To Access Your Working Files
+00:01:15
+Installing Spark
+Download And Setup
+00:03:24
+Running The Spark Shell
+00:05:35
+Running The Spark Shell With iPython
+00:06:38
+Spark Fundamentals
+What Is A Resilient Distributed Dataset - RDD?
+00:04:54
+Reading A Text File
+00:03:34
+Actions
+00:02:13
+Transformations
+00:02:30
+Persisting Data
+00:04:11
+Transformations
+Map
+00:03:04
+Filter
+00:03:56
+Flatmap
+00:03:16
+MapPartitions
+00:04:07
+MapPartitionsWithIndex
+00:01:51
+Sample
+00:02:36
+Union
+00:01:11
+Intersection
+00:01:28
+Distinct
+00:02:02
+Cartesian
+00:03:17
+Pipe
+00:03:40
+Coalesce
+00:02:12
+Repartition
+00:02:29
+RepartitionAndSortWithinPartitions
+00:03:58
+Actions
+Reduce
+00:04:19
+Collect
+00:01:56
+Count
+00:03:05
+First
+00:01:20
+Take
+00:01:05
+TakeSample
+00:03:03
+TakeOrdered
+00:02:10
+SaveAsTextFile
+00:04:09
+CountByKey
+00:02:40
+ForEach
+00:03:11
+Key-Value Pair RDDs
+GroupByKey
+00:02:31
+ReduceByKey
+00:03:30
+AggregateByKey
+00:03:44
+SortByKey
+00:02:47
+Join
+00:04:16
+CoGroup
+00:02:09
+Input And Output
+WholeTextFile
+00:03:15
+Pickle Files
+00:03:59
+HadoopInputFormat
+00:05:35
+HadoopOutputFormat
+00:05:31
+Performance
+Broadcast Variables
+00:04:17
+Accumulators
+00:05:08
+Using A Custom Accumulator
+00:04:52
+Partitioning
+00:07:56
+Running On A Cluster
+Spark Standalone Cluster
+00:04:26
+Mesos
+00:03:38
+Yarn
+00:02:28
+Client Versus Cluster Mode
+00:02:41
+Advanced Spark
+Spark Streaming
+00:04:21
+Dataframes And SQL
+00:03:28
+MLlib
+00:04:29
+Conclusion
+Resources And Where To Go From Here
+00:01:02
+Wrap Up
+00:01:28
