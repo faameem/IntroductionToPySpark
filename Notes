@@ -13,4 +13,6 @@ $ PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS="notebook" pyspark
 
 * Pay attention to Python truthy/falsy concept in the filter.ipynb in chapter 4 In5-In13
 
+* Python List[], Dict{}
+
 * After filtering transformation, it makes sense to reduce the number of partitions by calling coalesce()
