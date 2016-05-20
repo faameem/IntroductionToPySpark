@@ -17,6 +17,8 @@ Running The Spark Shell
 00:05:35
 Running The Spark Shell With iPython
 00:06:38
+
+
 Spark Fundamentals
 What Is A Resilient Distributed Dataset - RDD?
 00:04:54
@@ -28,6 +30,8 @@ Transformations
 00:02:30
 Persisting Data
 00:04:11
+
+
 Transformations
 Map
 00:03:04
@@ -57,6 +61,8 @@ Repartition
 00:02:29
 RepartitionAndSortWithinPartitions
 00:03:58
+
+
 Actions
 Reduce
 00:04:19
@@ -78,6 +84,8 @@ CountByKey
 00:02:40
 ForEach
 00:03:11
+
+
 Key-Value Pair RDDs
 GroupByKey
 00:02:31
@@ -91,6 +99,8 @@ Join
 00:04:16
 CoGroup
 00:02:09
+
+
 Input And Output
 WholeTextFile
 00:03:15
@@ -100,6 +110,8 @@ HadoopInputFormat
 00:05:35
 HadoopOutputFormat
 00:05:31
+
+
 Performance
 Broadcast Variables
 00:04:17
@@ -109,6 +121,8 @@ Using A Custom Accumulator
 00:04:52
 Partitioning
 00:07:56
+
+
 Running On A Cluster
 Spark Standalone Cluster
 00:04:26
@@ -118,6 +132,8 @@ Yarn
 00:02:28
 Client Versus Cluster Mode
 00:02:41
+
+
 Advanced Spark
 Spark Streaming
 00:04:21
@@ -125,6 +141,8 @@ Dataframes And SQL
 00:03:28
 MLlib
 00:04:29
+
+
 Conclusion
 Resources And Where To Go From Here
 00:01:02
