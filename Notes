@@ -22,5 +22,18 @@ $ PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS="notebook" pyspark
 * glom() returns the elements in a partition as a list/array.
 
 * Fuction provided to reduce() should be both:
-  associative = order of operation does not matter; addition is associative, subtraction is not
-  commutative = order of arguments does not matter; addition is commutative, subtraction is not
+  associative = order of operation does not matter; addition/multiplication is associative, subtraction/division is not
+  commutative = order of arguments does not matter; addition/multiplication is commutative, subtraction/division is not
+  
+* SaveAsTextFile:
+  Common practise to repartition before saving to control the number of files generated per partition
+  Having huge number of tiny files in HDFS will slow down performance
+  Use Python saveAsPickleFile if we need to read back the data efficiently.
+  Thrift can be used to read and write files too.
+
+* ForEach:
+  If the queue (collection) is available on each executor, then to see the result in the driver, we need to use the 
+  accumulator or else each executor will discard the local queue after calculation.
+  
+
+
