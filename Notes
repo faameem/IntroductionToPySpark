@@ -16,3 +16,11 @@ $ PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS="notebook" pyspark
 * Python List[], Dict{}
 
 * After filtering transformation, it makes sense to reduce the number of partitions by calling coalesce()
+
+* Decrease the number of partitions using coalesce(), increase/decrease the number using Repartition()
+
+* glom() returns the elements in a partition as a list/array.
+
+* Fuction provided to reduce() should be both:
+  associative = order of operation does not matter; addition is associative, subtraction is not
+  commutative = order of arguments does not matter; addition is commutative, subtraction is not
