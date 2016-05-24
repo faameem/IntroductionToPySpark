@@ -1,4 +1,12 @@
-
+* virtualenv is a tool to create isolated Python environments.
+  https://virtualenv.pypa.io/en/stable/
+  (1) Install virtualenv from above link
+  (2) Create virtualenv directory --> $ virtualenv test-env
+  (3) $ ls --> test-env
+  (4) $ cd test-env --> bin include lib
+  (5) $ . bin/activate
+  (6) $ which python --> ~/test-env/bin/python
+  
 * Drivers (usually the shell) and Executors
 
 * master configuration
