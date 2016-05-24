@@ -6,6 +6,26 @@
   (4) $ cd test-env --> bin include lib
   (5) $ . bin/activate
   (6) $ which python --> ~/test-env/bin/python
+
+* Installing ipython in virtualenv
+  (1) $ virtualenv ipython-env
+  (2) $ cd ipython-env
+  (3) $ . bin/activate
+  (4) $ pip install ipython
+  (5) $ ipython
+  (6) []: ? // for help
+  (7) []: %debug
+  (8) ipdb> h // for help
+  (9) ipdb> w // where am i
+  (10) ipdb> p x // print x
+  (11) ipdb> q // quit debugger
+  (12) []: %pdb // automatic pdb calling has been turned on
+
+* Installing Jupyter
+  (1) pip install jupyter
+  (2) $ jupyter notebook
+  (3) Create new notebook and give it a title.
+  (4) Work can be saved and shared, so good for reproducible research
   
 * Drivers (usually the shell) and Executors
 
