@@ -26,6 +26,14 @@
   (2) $ jupyter notebook
   (3) Create new notebook and give it a title.
   (4) Work can be saved and shared, so good for reproducible research
+
+* 2 spark shells (1) scala (2) python
+
+* python spark shell
+  (1) $ . pyspark/bin/activate // activate virtualenv
+  (2) $ spark-*/bin/pypark // opens the pyspark repl in virtual env
+  (3) >>> sc // spark context
+  (4) >>> sqlContext // HiveContext
   
 * Drivers (usually the shell) and Executors
 
@@ -33,7 +41,7 @@
 $ pyspark --master=local[*] // * is the number of threads based on cores available
 
 * Running IPYTHON in notebook
-$ PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS="notebook" pyspark
+$ PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS="notebook" spark-*/bin/pyspark
 
 * If we need an RDD to be used multiple times, then it makes sense to persist it using persist()
 
